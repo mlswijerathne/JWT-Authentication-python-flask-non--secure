@@ -1,0 +1,84 @@
+.home-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .home-container h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0 30px;
+  }
+  
+  .home-buttons button {
+    margin: 0 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .home-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-background {
+    background-image: url('../src/Components/Assets/background.jpg'); /* Make sure to add this image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  
+  .home-content h1 {
+    font-size: 32px;
+    color: #e8ecf1;
+    margin-bottom: 15px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #dad5d5;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons button {
+    margin: 0 10px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-buttons button:hover {
+    background-color: #0056b3;
+  }
+  

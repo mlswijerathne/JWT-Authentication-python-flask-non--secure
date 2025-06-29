@@ -1,0 +1,277 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Home styles */
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-container h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0 30px;
+}
+
+.home-buttons button {
+  margin: 0 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.home-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.home-background {
+  background-image: url('../src/Components/Assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+}
+
+.home-content h1 {
+  font-size: 32px;
+  color: #e8ecf1;
+  margin-bottom: 15px;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #dad5d5;
+  margin-bottom: 30px;
+}
+
+.home-buttons button {
+  margin: 0 10px;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Login/Register styles */
+.container {
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: #b7cbf5;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.underline {
+  height: 4px;
+  width: 60px;
+  background-color: #007bff;
+  margin: 8px auto;
+  border-radius: 3px;
+}
+
+.inputs {
+  margin-top: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.input img {
+  width: 20px;
+  margin-right: 12px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+.submit-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit {
+  padding: 10px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #007bff; 
+}
+
+.home-button {
+  margin-top: 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #5a6268;
+}
+
+.error-message {
+  color: #d9534f;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #5cb85c;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Dashboard styles */
+.dashboard-container {
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: #f8f9fa;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+.dashboard-header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-details {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dashboard-buttons button {
+  margin: 0 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.dashboard-buttons button:hover {
+  background-color: #0056b3;
+}
